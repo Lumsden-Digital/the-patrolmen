@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Atari 1';
+    src: url('../public/fonts/atari-1/RsultralinHollow.eot');
+    src: url('../public/fonts/atari-1/RsultralinHollow.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/atari-1/RsultralinHollow.woff2') format('woff2'),
+        url('../public/fonts/atari-1/RsultralinHollow.woff') format('woff'),
+        url('../public/fonts/atari-1/RsultralinHollow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url('../public/fonts/futura-bold/Futura-Bold.eot');
+    src: url('../public/fonts/futura-bold/Futura-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/futura-bold/Futura-Bold.woff2') format('woff2'),
+        url('../public/fonts/futura-bold/Futura-Bold.woff') format('woff'),
+        url('../public/fonts/futura-bold/Futura-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-brand {
+    font-family: 'Atari 1';
+}
