@@ -6,7 +6,7 @@ const Icon = (props) => {
         <div className='max-w-min cursor-pointer'>
             
             <h3 className='font-brand'>
-                <button onClick={props.toggleNav}>{props.nav === 'hidden' ? 'e' : 'x'}</button>
+                <button onClick={props.toggleNav}>{!props.showNav ? 'e' : 'x'}</button>
             </h3>
         </div>
     )
